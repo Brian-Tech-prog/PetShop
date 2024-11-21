@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./css/style.css" rel="stylesheet" />
+    <title>Cat&Dog</title>
+    <link href="./icon/pawprint 1.png" rel="icon" />
+  </head>
+  <body>
+    <header>
+      <div class="cabezera-top">
+        <span class="span-ofertas">Grandes ofertas en comederos</span>
+        <div>
+          <!-- <span>Español</span>
+          <span>ARG$</span> -->
+          <select id="idioma " class="pais-idioma" name="idioma">
+            <option value="Español">Español</option>
+            <option value="Ingles">Ingles</option>
+            <option value="Frances">Frances</option>
+            <option value="Arabe">Arabe</option>
+          </select>
+          <select id="pais " class="pais-idioma" name="pais">
+            <option value="Argentina">ARG$</option>
+            <option value="Estados Unidos">EEUU$</option>
+            <option value="Francia">FRA$</option>
+            <option value="Arabia Saudita">ARS$</option>
+          </select>
+        </div>
+      </div>
+      <div class="cabezera-menu">
+        <h3>
+          <img src="./icon/Cat.png" alt="icono gato" />
+          <span>Front</span>Cat&Dog
+          <img src="./icon/Dog.png" alt="icono perro" />
+        </h3>
+        <nav>
+          <ul>
+            <li>
+              <img src="./icon/pawprint 1.png" alt="patita categorias" /><a
+                href=""
+              >
+                Categorías</a
+              >
+            </li>
+            <li>
+              <img src="./icon/pawprint 1.png" alt="patita pets" /><a href="">
+                Pets</a
+              >
+            </li>
+            <li>
+              <img src="./icon/pawprint 1.png" alt="patita nosotros" /><a
+                href=""
+                >Nosotros
+              </a>
+            </li>
+            <li>
+              <img src="./icon/pawprint 1.png" alt="patita contactanos" /><a
+                href=""
+              >
+                Contactanos</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="section-header">
+        <div>
+          <h2>¡Es un placer tenerte aquí!</h2>
+          <span>¡Comederos en descuento!</span>
+          <a href="">COMEDEROS</a>
+        </div>
+      </div>
+      <div class="main-top">
+        <section class="productos">
+          <img src="./img/pawprint 1.png" alt="Pata amarilla" />
+          <h1>Productos Destacados</h1>
+          <nav>
+            <ul>
+              <li><a href="">Comederos</a></li>
+              <li>-</li>
+              <li><a href="">Accesorios</a></li>
+              <li>-</li>
+              <li><a href="">Comida</a></li>
+            </ul>
+          </nav>
+          <div class="articulos">
+            <article>
+              <img src="./img/churrasquito.png" alt="Churrasquito" />
+              <p>Juguete Churrasquito</p>
+              <span>$150</span>
+            </article>
+            <article>
+              <img src="./img/comedero.png" alt="comedero" />
+              <p>Comedero para perroo</p>
+              <span>$250</span>
+            </article>
+            <article>
+              <img src="./img/Huesito.png" alt="huesito" />
+              <p>Juguete Huesito</p>
+              <span>$650</span>
+            </article>
+          </div>
+        </section>
+      </div>
+      <form class="formulario">
+        <h4>Contáctanos</h4>
+        <div class="inputs">
+          <input type="text" name="Nombre" value="Nombre y Apellido" />
+          <input
+            type="email"
+            name="email"
+            value="Ingresar tu correo Electrónico"
+          />
+          <input type="tel" name="telefono" value="Télefono" />
+        </div>
+        <div class="enviar-reset">
+          <input type="submit" name="enviar" value="Enviar" />
+          <input
+            id="color-reset"
+            type="reset"
+            name="resetear"
+            value="Resetear"
+          />
+        </div>
+      </form>
+      <section class="suscribir">
+        <div>
+          <img src="./icon/enviar-correo1.png" alt="icono correo" />
+          <h5>Suscríbete para más novedades</h5>
+        </div>
+        <form action="">
+          <input
+            id="ingresar-correo"
+            type="text"
+            name="suscorreo"
+            value="Ingresá tu correo electrónico"
+          />
+          <input
+            id="enviar-suscribir"
+            type="submit"
+            name="suscribirme"
+            value="Suscribirme"
+          />
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <section>
+          <div class="datos">
+            <img src="./icon/Icono1.png" alt="icono-localizacion" />
+            <div>
+              <h6>Localidad</h6>
+              <p>Calle - provincia</p>
+            </div>
+          </div>
+          <div class="datos">
+            <img src="./icon/Icono2.png" alt="icono-localizacion" />
+            <div>
+              <h6>Teléfono</h6>
+              <p>Número de teléfono</p>
+            </div>
+          </div>
+          <div class="datos">
+            <img src="./icon/Icono3.png" alt="icono-localizacion" />
+            <div>
+              <h6>Correo Electrónico</h6>
+              <p>Dirección de correo</p>
+            </div>
+          </div>
+        </section>
+        <h3>
+          <img src="./icon/Cat.png" alt="icono gato" /> Front<span
+            id="span-naranja"
+            >Cat&Dog</span
+          >
+          <img src="./icon/Dog.png" alt="icono perro" />
+        </h3>
+      </div>
+      <div id="pie-pagina">Todos los derechos reservados Front End</div>
+    </footer>
+  </body>
+</html>
